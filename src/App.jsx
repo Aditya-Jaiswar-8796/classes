@@ -61,7 +61,7 @@ const form = useRef();
         <hr className='w-24 h-1 bg-blue-600 ' />
 
         <div className='flex gap-10 flex-wrap justify-center items-center'>
-          <div className='relative h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
+          <div className='relative min-h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
             <img src="/lucide-Atom-Outlined.svg" className='bg-slate-300/50  w-10 h-10 rounded-lg p-1 m-5' />
             <span className='font-semibold text-sm my-3 bg-slate-400/20 text-slate-900 px-5 py-1 mx-6 rounded-[1rem]'>Engineering</span>
             <h2 className='mt-3 text-xl font-bold px-5'>IIT-JEE Preparation</h2>
@@ -72,7 +72,7 @@ const form = useRef();
             </ul>
             <button className='flex items-center gap-2 mt-5 font-semibold text-sm absolute bottom-5 text-blue-600'>Learn More <img className='w-4' src="/lucide-ArrowRight-Outlined.svg" alt="" /></button>
           </div>
-          <div className='relative h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
+          <div className='relative min-h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
             <img src="/lucide-Stethoscope-Outlined.svg" className='bg-slate-300/50  w-10 h-10 rounded-lg p-1 m-5' />
             <span className='font-semibold text-sm my-3 bg-slate-400/20 text-slate-900 px-5 py-1 mx-6 rounded-[1rem]'>Medical</span>
             <h2 className='mt-3 text-xl font-bold px-5'>NEET Preparation</h2>
@@ -83,7 +83,7 @@ const form = useRef();
             </ul>
             <button className='flex items-center gap-2 mt-5 font-semibold text-sm absolute bottom-5 text-blue-600'>Learn More <img className='w-4' src="/lucide-ArrowRight-Outlined.svg" alt="" /></button>
           </div>
-          <div className='relative h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
+          <div className='relative min-h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
             <img src="/lucide-BookOpen-Outlined.svg" className='bg-slate-300/50  w-10 h-10 rounded-lg p-1 m-5' />
             <span className='font-semibold text-sm my-3 bg-slate-400/20 text-slate-900 px-5 py-1 mx-6 rounded-[1rem]'>Foundation</span>
             <h2 className='mt-3 text-xl font-bold px-5'>Foundation Courses (Class 8–10)</h2>
@@ -92,9 +92,9 @@ const form = useRef();
               <li>Focus: Maths & Science</li>
               <li>Goal: Build strong fundamentals</li>
             </ul>
-            <button className='flex items-center gap-2 mt-5 font-semibold text-sm absolute bottom-5 text-blue-600'>Learn More <img className='w-4' src="/lucide-ArrowRight-Outlined.svg" alt="" /></button>
+            <button className='flex items-center gap-2 mt-5 font-semibold text-sm sm:absolute bottom-5 text-blue-600'>Learn More <img className='w-4' src="/lucide-ArrowRight-Outlined.svg" alt="" /></button>
           </div>
-          <div className='relative h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
+          <div className='relative min-h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
             <img src="/lucide-GraduationCap-Outlined.svg" className='bg-slate-300/50  w-10 h-10 rounded-lg p-1 m-5' />
             <span className='font-semibold text-sm my-3 bg-slate-400/20 text-slate-900 px-5 py-1 mx-6 rounded-[1rem]'>Academic</span>
             <h2 className='mt-3 text-xl font-bold px-5'>Board Exam Preparation</h2>
@@ -104,7 +104,7 @@ const form = useRef();
             </ul>
             <button className='flex items-center gap-2 mt-5 font-semibold text-sm absolute bottom-5 text-blue-600'>Learn More <img className='w-4' src="/lucide-ArrowRight-Outlined.svg" alt="" /></button>
           </div>
-          <div className='relative h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
+          <div className='relative min-h-[20rem] px-5 w-[20rem] py-3 hover:border-0 border border-slate-400/30 bg-[#FFFFFFFF] hover:shadow-[0px_4px_12px_3px_#b8b9b9] rounded-lg mt-5'>
             <img src="/lucide-Zap-Outlined.svg" className='bg-slate-300/50  w-10 h-10 rounded-lg p-1 m-5' />
             <span className='font-semibold text-sm my-3 bg-slate-400/20 text-slate-900 px-5 py-1 mx-6 rounded-[1rem]'>Fast Track</span>
             <h2 className='mt-3 text-xl font-bold px-5'>Crash Courses</h2>
