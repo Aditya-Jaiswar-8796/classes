@@ -38,7 +38,7 @@ const form = useRef();
   return (
     <div className="w-full pt-16 h-screen bg-[#F9FAFBFF]">
       <ToastContainer/>
-      <div className="pt-10 relative px-20  w-full" id='home'>
+      <div className="pt-10 relative px-5 sm:px-20  w-full" id='home'>
         <span className='border-2 border-blue-600 font-semibold text-blue-600 px-5 py-1 mx-6 rounded-[1rem]'>Best Academy 2026</span>
         <div className="text-6xl font-bold mt-8 text-wrap max-w-[25rem]">Unlock Your Potential with <span className='text-blue-500'>Best Coaching Classes</span> in Andheri</div>
         <p className='px-8 py-10 text-lg font-[500] text-wrap text-slate-600/75 max-w-[30rem]'>Excellence in education for over 15 years. Join our expert-led sessions designed to help you ace entrance exams and academic grades.</p>
@@ -48,14 +48,14 @@ const form = useRef();
             <button className='bg-blue-500 text-white font-semibold px-7 py-3 hover:scale-105 hover:shadow-[0px_4px_6px_0px_rgba(59,_130,_246,_0.5)] rounded-xl'>Enroll Now</button>
             <button className='border-2 border-slate-400/50 text-slate-700 font-semibold px-7 py-3 hover:scale-105 hover:shadow-[0px_4px_6px_0px_grey] rounded-xl'>View Courses</button>
           </span>
-          <span className='flex gap-20 mt-1'>
+          <span className='flex gap-12 sm:gap-20 mt-1'>
             <span className='text-sm text-slate-600 font-semibold '><span className='font-bold text-black/90 text-2xl'>5000+</span><br />Students Taught </span>
             <span className='text-sm text-slate-600 font-semibold '><span className='font-bold text-black/90 text-2xl'>98.4%</span><br />Pass Rate </span>
             <span className='text-sm text-slate-600 font-semibold '><span className='font-bold text-black/90 text-2xl'>25+</span><br />Expert Faculty </span>
           </span>
         </div>
       </div>
-      <div className="py-10 pt-24 px-20" id='courses'>
+      <div className="py-10 pt-24 px-10 sm:px-20" id='courses'>
         <h1 className=' text-black font-bold text-3xl'>Courses Offered</h1>
         <p className='py-5  text-lg text-wrap text-slate-600 max-w-[42rem]'>Tailored learning programs designed to meet global academic standards and competitive exam requirements.</p>
         <hr className='w-24 h-1 bg-blue-600 ' />
@@ -117,7 +117,7 @@ const form = useRef();
           </div>
         </div>
       </div>
-      <div className="py-10 pt-24 px-20 flex flex-col justify-center items-center bg-[#F0F5FEFF]" id="results">
+      <div className="py-10 pt-24 px-5 sm:px-20 flex flex-col justify-center items-center bg-[#F0F5FEFF]" id="results">
         <h1 className=' text-black font-bold text-3xl '>Our Wall of Fame</h1>
         <p className='py-5  text-lg text-wrap text-slate-600 max-w-[42rem]'>The success stories of our brilliant students speak louder than words.</p>
         <hr className='w-20 h-1 bg-blue-600 ' />
@@ -216,7 +216,7 @@ const form = useRef();
 
         </div>
       </div>
-      <div className="py-10 pt-24 px-20 " id="faculty">
+      <div className="py-10 pt-24 px-5 sm:px-20 " id="faculty">
         <h1 className=' text-black font-bold text-3xl '>Meet Our Expert Faculty</h1>
         <p className='py-5  text-lg text-wrap text-slate-600 max-w-[42rem]'>Our faculty members are not just teachers, but mentors who are dedicated to your success.</p>
         <hr className='w-20 h-1 bg-blue-500 ' />
@@ -256,7 +256,7 @@ const form = useRef();
         </div>
 
       </div>
-      <div className="pt-24 pb-6 px-10 sm:px-24 bg-[#F9FAFBFF] w-full flex max-lg:flex-col gap-20 justify-center items-start" id='contact'>
+      <div className="pt-24 pb-6 px-5 sm:px-24 bg-[#F9FAFBFF] w-full flex max-lg:flex-col gap-20 justify-center items-start" id='contact'>
         <div className="lg:w-1/2 rounded-lg flex flex-col justify-between bg-white shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] p-10 items-center">
           <div className="">
             <h1 className=' text-black font-bold text-3xl '>Send us a Message</h1>
@@ -296,7 +296,7 @@ const form = useRef();
         </div>
 
       </div>
-      <div className='flex bg-[#16181DFF] h-6 w-full z-50 items-center gap-3 py-5 px-20 justify-between  text-center text-slate-300 text-sm'>
+      <div className='flex bg-[#16181DFF] h-6 w-full z-50 items-center gap-3 py-5 px-5 sm:px-20 justify-between  text-center text-slate-300 text-sm'>
             <p>© 2024 Bright Future Academy. All rights reserved.</p>
             <ul className='flex max-sm:hidden gap-5 ml-10'>
                 <li>Privacy Policy</li>
