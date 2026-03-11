@@ -40,9 +40,9 @@ const form = useRef();
       <ToastContainer/>
       <div className="pt-10 relative px-20  w-full" id='home'>
         <span className='border-2 border-blue-600 font-semibold text-blue-600 px-5 py-1 mx-6 rounded-[1rem]'>Best Academy 2026</span>
-        <div className="text-6xl font-bold mt-8 text-wrap w-[25rem]">Unlock Your Potential with <span className='text-blue-500'>Best Coaching Classes</span> in Andheri</div>
-        <p className='px-8 py-10 text-lg font-[500] text-wrap text-slate-600/75 w-[30rem]'>Excellence in education for over 15 years. Join our expert-led sessions designed to help you ace entrance exams and academic grades.</p>
-        <div className="absolute top-10 right-32 flex flex-col items-center gap-10">
+        <div className="text-6xl font-bold mt-8 text-wrap max-w-[25rem]">Unlock Your Potential with <span className='text-blue-500'>Best Coaching Classes</span> in Andheri</div>
+        <p className='px-8 py-10 text-lg font-[500] text-wrap text-slate-600/75 max-w-[30rem]'>Excellence in education for over 15 years. Join our expert-led sessions designed to help you ace entrance exams and academic grades.</p>
+        <div className=" lg:absolute top-10 xl:right-32 lg:right-5  flex flex-col lg:items-center  gap-10">
           <img src="https://ei.study/wp-content/uploads/elementor/thumbs/4-1-qdcrno8zblz2tck9z8mvv0xz6in0c23ze9u49ht9gw.jpg" alt="img" className='border-8  shadow-[-7px_10px_51px_-6px_#bfc0c1] border-white w-[32rem] rounded-[2rem]' />
           <span className="btn flex gap-5">
             <button className='bg-blue-500 text-white font-semibold px-7 py-3 hover:scale-105 hover:shadow-[0px_4px_6px_0px_rgba(59,_130,_246,_0.5)] rounded-xl'>Enroll Now</button>
@@ -57,7 +57,7 @@ const form = useRef();
       </div>
       <div className="py-10 pt-24 px-20" id='courses'>
         <h1 className=' text-black font-bold text-3xl'>Courses Offered</h1>
-        <p className='py-5  text-lg text-wrap text-slate-600 w-[42rem]'>Tailored learning programs designed to meet global academic standards and competitive exam requirements.</p>
+        <p className='py-5  text-lg text-wrap text-slate-600 max-w-[42rem]'>Tailored learning programs designed to meet global academic standards and competitive exam requirements.</p>
         <hr className='w-24 h-1 bg-blue-600 ' />
 
         <div className='flex gap-10 flex-wrap justify-center items-center'>
@@ -119,7 +119,7 @@ const form = useRef();
       </div>
       <div className="py-10 pt-24 px-20 flex flex-col justify-center items-center bg-[#F0F5FEFF]" id="results">
         <h1 className=' text-black font-bold text-3xl '>Our Wall of Fame</h1>
-        <p className='py-5  text-lg text-wrap text-slate-600 w-[42rem]'>The success stories of our brilliant students speak louder than words.</p>
+        <p className='py-5  text-lg text-wrap text-slate-600 max-w-[42rem]'>The success stories of our brilliant students speak louder than words.</p>
         <hr className='w-20 h-1 bg-blue-600 ' />
         <div className="overflow-x-auto w-full [&::-webkit-scrollbar]:w-0 flex  " id='carousel'>
 
@@ -218,7 +218,7 @@ const form = useRef();
       </div>
       <div className="py-10 pt-24 px-20 " id="faculty">
         <h1 className=' text-black font-bold text-3xl '>Meet Our Expert Faculty</h1>
-        <p className='py-5  text-lg text-wrap text-slate-600 w-[42rem]'>Our faculty members are not just teachers, but mentors who are dedicated to your success.</p>
+        <p className='py-5  text-lg text-wrap text-slate-600 max-w-[42rem]'>Our faculty members are not just teachers, but mentors who are dedicated to your success.</p>
         <hr className='w-20 h-1 bg-blue-500 ' />
         <div className="flex gap-10 flex-wrap justify-center items-center mt-10">
           <div className='border-2 border-slate-400/50 bg-white rounded-xl w-72 h-80 p-5 flex-[0_0_18rem] flex flex-col gap-3 justify-between items-center'>
@@ -256,8 +256,8 @@ const form = useRef();
         </div>
 
       </div>
-      <div className="pt-24 pb-6 px-24 bg-[#F9FAFBFF] w-full flex gap-20 justify-center items-start" id='contact'>
-        <div className="w-1/2 rounded-lg flex flex-col justify-between bg-white shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] p-10 items-center">
+      <div className="pt-24 pb-6 px-10 sm:px-24 bg-[#F9FAFBFF] w-full flex max-lg:flex-col gap-20 justify-center items-start" id='contact'>
+        <div className="lg:w-1/2 rounded-lg flex flex-col justify-between bg-white shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] p-10 items-center">
           <div className="">
             <h1 className=' text-black font-bold text-3xl '>Send us a Message</h1>
             <p className='py-5 text-lg text-wrap text-slate-600'>Have questions about our curriculum or fee structure? Fill out the form and our counselors will get back to you within 24 hours.</p>
@@ -272,7 +272,7 @@ const form = useRef();
             <button className='bg-blue-500 w-full text-white font-semibold px-7 py-3 hover:scale-105 hover:shadow-[0px_4px_6px_0px_rgba(59,_130,_246,_0.5)] rounded-xl'>Send Enquiry</button>  
           </form>
         </div>
-        <div className="w-1/2 h-[36.5rem] gap-3 bg-white shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] p-10 rounded-lg flex flex-col justify-between items-start">
+        <div className="w-1/2 max-lg:w-full h-[36.5rem] gap-3 bg-white shadow-[0px_4px_6px_0px_rgba(0,_0,_0,_0.1)] p-10 rounded-lg flex flex-col justify-between items-start">
           <h1 className=' text-black font-bold text-3xl '>Visit Our Campus</h1>
           <span className='flex items-center gap-5'>
             <img src="/lucide-MapPin-Outlined.svg" className='w-10 p-2 bg-[#256AF41A] rounded-full' alt="" />
@@ -298,7 +298,7 @@ const form = useRef();
       </div>
       <div className='flex bg-[#16181DFF] h-6 w-full z-50 items-center gap-3 py-5 px-20 justify-between  text-center text-slate-300 text-sm'>
             <p>© 2024 Bright Future Academy. All rights reserved.</p>
-            <ul className='flex gap-5 ml-10'>
+            <ul className='flex max-sm:hidden gap-5 ml-10'>
                 <li>Privacy Policy</li>
                 <li>Terms of Service</li>
                 <li>Cookie Settings</li>
