@@ -304,6 +304,14 @@ const form = useRef();
                 <li>Cookie Settings</li>
             </ul>
         </div>
+        <a
+        href="https://wa.me/1234567890" // Replace with your WhatsApp number
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 bg-green-500 flex gap-2 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full shadow-lg z-50"
+      >
+        <img src="/whatsapp.svg" className='w-6 h-6' alt="WhatsApp" /> WhatsApp
+      </a>
     </div>
   )
 }
